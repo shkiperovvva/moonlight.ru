@@ -1,0 +1,139 @@
+header {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 6px 1px #c9c9c9;
+} 
+.long_logo {
+    width: 220px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 170px;
+}
+.short_logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 30px;
+}
+body {
+    margin: 0px;
+}
+.ssylka {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    font-weight: bold;
+}
+.ssylka a:hover {
+    text-decoration: underline;
+  }
+a {
+    padding-right: 15px;
+    color: rgb(3, 4, 94);
+    text-decoration: none;
+}
+.section1 {
+    margin: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(3, 4, 94);
+}
+.section1 h1 {
+    width: 200px;
+    color: rgb(184, 217, 255);
+    margin: 0px;
+    margin-left: 150px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    padding-top: 60px;
+}
+.section2 {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.all {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section2 div img {
+    width: 300px;
+    height: 300px;
+}
+.section2 div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nazvanie {
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(3, 4, 94);
+    display: flex;
+    justify-content: space-around;
+}
+.footer div {
+    width: 300px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer div h1 {
+    margin-left: 50px;
+    margin-top: 50px;  
+    margin-bottom: 30px;
+    color: rgb(184, 217, 255);
+  
+}
+.footer div p {
+    color: rgb(184, 217, 255);
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+.footer div p:hover {
+    color: rgb(68, 104, 145);
+}
+.footer div input {
+    margin-left: 50px;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(3, 4, 94);
+    color: rgb(184, 217, 255);
+    border: rgb(184, 217, 255) solid 1px;
+}
+.footer div button {
+    background-color: rgb(3, 4, 94);
+    color: rgb(184, 217, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border: rgb(184, 217, 255) solid 1px;
+    border-radius: 3px;
+    transition: 0.5s;
+}  
+.footer div button:hover {
+    border: rgb(3, 4, 94) solid 1px;
+    background-color: rgb(184, 217, 255);
+    color: rgb(3, 4, 94);
+} 

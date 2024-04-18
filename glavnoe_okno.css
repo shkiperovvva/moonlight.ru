@@ -1,0 +1,293 @@
+/*15.01.2024*/
+
+
+header {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 6px 1px #c9c9c9;
+} 
+.long_logo {
+  width: 220px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 170px;
+}
+.short_logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  margin-left: 30px;
+}
+body {
+  margin: 0px;
+}
+.ssylka{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px;
+  font-weight: bold;
+}
+.ssylka a:hover {
+  text-decoration: underline;
+}
+a {
+  padding-right: 15px;
+  color: rgb(3, 4, 94);
+  text-decoration: none;
+}
+.section1 {
+  width: 100%;
+  height: 662px;
+  margin-bottom: 50px;
+}
+.square {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(184, 217, 255);
+}
+.square2 {
+  position: absolute;
+  width: 500px;
+  height: 600px; 
+  background-color: rgb(3, 4, 94);
+}
+.img1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 500px;
+  height: 500px;
+}
+.text1 {
+  width: 500px;
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  color: rgb(3, 4, 94);
+  font-size: 34px;
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.text2 {
+  width: 400px;
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  color: rgb(3, 4, 94);
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.but1 {
+  position: absolute;
+  left: 70%;
+  top: 65%;
+  color: #fff;
+  background-color: rgb(3, 4, 94);
+  border: none;
+  border-radius: 3px;
+  width: 160px;
+  height: 40px;
+}
+.section2, .section4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.square3, .square7 {
+  width: 1100px;
+  height: 300px; 
+  background-color: rgb(3, 4, 94);
+  display: flex;
+  justify-content: space-between;
+}
+.text3 {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 100px;
+  color: rgb(184, 217, 255);
+  font-size: 34px;
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section3 {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.section3 div {
+  width: 250px;
+  height: 370px;
+  border: rgb(3, 4, 94) solid 1px;
+}
+.section3 div a p {
+  margin-top: 0px;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 200px;
+  color: rgb(3, 4, 94);
+}
+.text4 {
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 220px;
+  margin-left: 70px;
+  width: 100px;
+  color: rgb(3, 4, 94);
+  font-size: 34px;
+}
+.ring{
+  width: 230px;
+  height: 230px;
+  margin-left: 10px;
+}
+.img2 {
+  width: 500px;
+  height: 300px;
+}
+.square7 div h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(184, 217, 255);
+  font-weight: normal;
+  width: 100px;
+  margin-top: 70px;
+}
+.square7 div p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(184, 217, 255);
+  font-weight: normal;
+  width: 400px;
+  margin-right: 150px;
+}
+.section5 {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.section5 div {
+  width: 250px;
+  height: 370px;
+  border: rgb(3, 4, 94) solid 1px;
+}
+.section5 div a p {
+  margin-top: 0px;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 200px;
+  color: rgb(3, 4, 94);
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(3, 4, 94);
+  display: flex;
+  justify-content: space-around;
+}
+.footer div {
+  width: 300px;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer div h1 {
+  margin-left: 50px;
+  margin-top: 50px;  
+  margin-bottom: 30px;
+  color: rgb(184, 217, 255);
+
+}
+.footer div p {
+  color: rgb(184, 217, 255);
+  font-size: 14px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 50px;
+  transition: 0.5s;
+}
+.footer div p:hover {
+  color: rgb(68, 104, 145);
+}
+.footer div input {
+  margin-left: 50px;
+  height: 35px;
+  width: 200px;
+  background-color: rgb(3, 4, 94);
+  color: rgb(184, 217, 255);
+  border: rgb(184, 217, 255) solid 1px;
+}
+.footer div button {
+  background-color: rgb(3, 4, 94);
+  color: rgb(184, 217, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 150px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 80px;
+  border: rgb(184, 217, 255) solid 1px;
+  border-radius: 3px;
+  transition: 0.5s;
+} 
+.footer div button:hover {
+  border: rgb(3, 4, 94) solid 1px;
+  background-color: rgb(184, 217, 255);
+  color: rgb(3, 4, 94);
+} 
+@media screen and (min-width: 1366px) and (max-width: 1600px) and (min-height: 768px) and (max-height: 1200px) {
+  .square2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  .square {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+  
+  .img1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+  .text1 {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+  }
+  .text2 {
+    position: absolute;
+    left: 60%;
+    top: 28%;
+  }
+  .but1 {
+    position: absolute;
+    left: 67%;
+    top: 37%;
+  }
+  /* .square6 {
+    position: absolute;
+    top: 93.5%;
+    left: 20%;
+  } */
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 768px) {
+  
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) and (min-height: 480px) and (max-height: 360px) {
+  
+}
+@media screen and (min-width: 480px) and (max-width: 800px) and (min-height: 320px) and (max-height: 480px) {
+  
+}

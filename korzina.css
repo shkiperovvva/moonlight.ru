@@ -1,0 +1,57 @@
+header {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 6px 1px #c9c9c9;
+} 
+.long_logo {
+    width: 220px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 170px;
+}
+.short_logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 30px;
+}
+body {
+    margin: 0px;
+}
+.ssylka {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    font-weight: bold;
+}
+.ssylka a:hover {
+    text-decoration: underline;
+  }
+a {
+    padding-right: 15px;
+    color: rgb(3, 4, 94);
+    text-decoration: none;
+}
+.section1 {
+    margin: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(3, 4, 94);
+}
+.section1 h1 {
+    width: 200px;
+    color: rgb(184, 217, 255);
+    margin: 0px;
+    margin-left: 150px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    padding-top: 75px;
+}
+.items {
+    width: 100%;
+    height: 100%;
+}

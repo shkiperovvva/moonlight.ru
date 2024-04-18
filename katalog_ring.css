@@ -1,0 +1,153 @@
+body {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 40px;
+}
+div {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+.ssylka {
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(3, 4, 94);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ssylka a:hover {
+    text-decoration: underline;
+}
+section {
+    height: 700px;
+}
+.img {
+    width: 550px;
+    height: 570px;
+    position: absolute;
+    left: 10%;
+}
+.img img {
+    width: 500px;
+    height: 570px;
+}
+.text {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    left: 55%;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 4, 94);
+}
+.size {
+    margin-top: 5px;
+    width: auto;
+    height: 35px;
+    border: 1px solid rgb(160, 160, 160);
+    background-color: white;
+}
+.size:hover {
+    border: 1px solid rgb(3, 4, 94);
+}
+.p1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.p2 {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.p3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 5px;
+    margin-left: 0;
+}
+.p4 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 0;
+}
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 170px;
+    border-radius: 3px;
+    color: rgb(3, 4, 94);
+    font-size: 15px;
+}
+.korzina {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(3, 4, 94);
+    border-radius: 0;
+    color: white;
+    background-color: rgb(3, 4, 94);
+    transition: 0.5s;
+}
+.korzina:hover {
+    background-color: rgb(68, 104, 145);
+}
+.about {
+    margin-top: 50px;
+}
+.p5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    margin-left: 140px;
+    color: rgb(3, 4, 94);
+}
+.predl {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.predl div {
+    margin-right: 100px;
+    
+    width: 200px;
+    height: 200px;
+}
+.predl div a {
+    text-decoration: none;
+}
+.predl img {
+    width: 270px;
+    height: 270px;
+}
+.nazvanie {
+    margin-left: 20px;
+    margin-top: 0;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgb(3, 4, 94);
+}
+.price {
+    margin-left: 20px;
+    margin-top: 0;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgb(3, 4, 94);
+}
